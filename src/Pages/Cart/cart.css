@@ -1,0 +1,97 @@
+.cart{
+    display: flex;
+    flex-direction: row;
+    margin-top:2rem ;
+}
+.checkout-box{
+  width:25%;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.checkout-box h5{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.checkout-box .subtotal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:2rem;
+}
+.checkout-box .total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:2rem;
+}
+.checkout-box .total p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.checkout-box button{
+  margin: 2rem auto;
+  padding:1rem 1.8rem;
+  font-size: 1.3rem !important;
+  color:#fff;
+  background-color:rgb(12, 111, 209);
+  border-radius: 5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.checkout-box .amount{
+    color: rgb(12, 111, 209);
+}
+.cart-list{
+    width:75%;
+    display: flex;
+    flex-direction: column;
+    text-align:center
+}
+.cart-list img{
+    width:100px;
+}
+.cart-list .quantity{
+   display: flex;
+   flex-direction: row;
+   border: 1px solid rgba(0, 0, 0, 0.242);
+   justify-content: space-evenly;
+   border-radius:4rem;
+   margin-right: 1rem;
+}
+.cart-list .quantity button{
+    padding: 0.2rem;
+    outline: none;
+    border: none;
+    background-color:#fff;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.cart-list .quantity input{
+    border: none;
+    outline: none;
+    width: 30px;
+    text-align: center;
+}
+.cart-list .data-row{
+   border: 1px solid #000;
+}
+.cart-list .data-name-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-list .quan{
+    width:20%;
+}
+.cart-list .subtotal{
+    width:20%;
+}
+.cart-list .remove-item{
+    font-size:1.8rem !important;
+    color: rgb(148, 16, 16);
+    cursor: pointer;
+}

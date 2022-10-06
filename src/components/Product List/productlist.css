@@ -1,0 +1,57 @@
+table{
+    width: 100%;
+}
+table .header{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 2.5rem;
+}
+table .column{
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0 .5rem;
+}
+table .image{
+    width: 15%;
+}
+table .name{
+    width: 25%;
+}
+table .colour{
+    width: 15%;
+}
+table .stock{
+   width:10%;
+}
+table .price{
+   width: 10%;
+}
+table .buy{
+   width:25%;
+   text-align:right;
+}
+.products img{
+    width: 150px;
+}
+.products td{
+    padding: 1rem .5rem;
+}
+.products .buy-item{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding:.5rem;
+    color: #fff;
+    width: 50px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.products .add-btn{
+    font-size: 2rem;
+    color: #fff;
+   margin-right:5px ;
+   cursor: pointer;
+}
